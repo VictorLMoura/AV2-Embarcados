@@ -731,6 +731,18 @@
     <Folder Include="src\config\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\digital521.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\soneca.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\termometro.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\tfont.h">
+      <SubType>compile</SubType>
+    </Compile>
     <None Include="src\asf.h">
       <SubType>compile</SubType>
     </None>
@@ -1076,6 +1088,9 @@
     <None Include="src\ASF\common\boards\board.h">
       <SubType>compile</SubType>
     </None>
+    <Compile Include="src\ar.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="src\ASF\common\components\touch\mxt\mxt_device_1.c">
       <SubType>compile</SubType>
     </Compile>
